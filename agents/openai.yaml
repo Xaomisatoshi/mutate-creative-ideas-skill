@@ -1,0 +1,14 @@
+interface:
+  display_name: Creative Idea Mutator KI-Agent
+  short_description: Entwickelt starke kreative Varianten aus Ideen
+  default_prompt: Nutze $mutate-creative-ideas, um meine Ausgangsidee in klar unterscheidbare,
+    markengerechte Kreativrichtungen zu verwandeln und die stärksten Optionen zu priorisieren.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
